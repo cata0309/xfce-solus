@@ -1,0 +1,20 @@
+name       : xfconf
+version    : 4.12.1
+release    : 1
+source     :
+    - http://archive.xfce.org/src/xfce/xfconf/4.12/xfconf-4.12.1.tar.bz2 : 35f48564e5694faa54fdc180cd3268e16fc2352946a89a3c2fc12cbe400ada36
+license    : GPL-2.0-or-later
+component  : desktop.xfce
+summary    : Configuration library
+description: |
+    Configuration library and tools for XFCE
+builddeps  :
+    - pkgconfig(libxfce4util-1.0)
+    - pkgconfig(dbus-glib-1)
+    - pkgconfig(gtk+-2.0)  
+setup      : |
+    %configure
+build      : |
+    %make
+install    : |
+    %make_install
