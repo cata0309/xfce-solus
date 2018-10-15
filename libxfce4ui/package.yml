@@ -1,0 +1,22 @@
+name       : libxfce4ui
+version    : 4.12.1
+release    : 1
+source     :
+    - http://archive.xfce.org/src/xfce/libxfce4ui/4.12/libxfce4ui-4.12.1.tar.bz2 : 3d619811bfbe7478bb984c16543d980cadd08586365a7bc25e59e3ca6384ff43
+license    : GPL-2.0-or-later
+component  : desktop.xfce
+summary    : Widgets library for xfce4
+description: |
+    Unified widgets library for xfce4
+builddeps  :
+    - pkgconfig(libxfce4util-1.0)
+    - pkgconfig(libxfconf-0)
+    - pkgconfig(libstartup-notification-1.0)
+    - pkgconfig(gtk+-3.0)
+    - pkgconfig(libglade-2.0)      
+setup      : |
+    %configure --enable-gtk3
+build      : |
+    %make
+install    : |
+    %make_install
