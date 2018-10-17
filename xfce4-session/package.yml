@@ -1,0 +1,22 @@
+name       : xfce4-session
+version    : 4.12.1
+release    : 1
+source     :
+    - http://archive.xfce.org/src/xfce/xfce4-session/4.12/xfce4-session-4.12.1.tar.bz2 : 97d7f2a2d0af7f3623b68d1f04091e02913b28f9555dab8b0d26c8a1299d08fd
+license    : GPL-2.0-or-later
+component  : desktop.xfce
+summary    : XFCE session manager
+description: |
+    The XFCE session manager
+builddeps  :
+    - pkgconfig(libxfce4ui-1)
+    - pkgconfig(upower-glib)
+    - pkgconfig(sm)
+    - pkgconfig(libwnck-1.0)
+    - iceauth
+setup      : |
+    %configure
+build      : |
+    %make
+install    : |
+    %make_install
