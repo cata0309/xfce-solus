@@ -1,0 +1,203 @@
+<PISI>
+    <Source>
+        <Name>libwnck2</Name>
+        <Packager>
+            <Name>Pingax</Name>
+            <Email>pingax@gmail.com</Email>
+        </Packager>
+        <License>GPL-2.0-or-later</License>
+        <PartOf>desktop.library</PartOf>
+        <Summary xml:lang="en">Window Navigator Construction Kit (gtk+2)</Summary>
+        <Description xml:lang="en">Window Navigator Construction Kit from Gnome (gtk+2 version)
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>libwnck2</Name>
+        <Summary xml:lang="en">Window Navigator Construction Kit (gtk+2)</Summary>
+        <Description xml:lang="en">Window Navigator Construction Kit from Gnome (gtk+2 version)
+</Description>
+        <PartOf>desktop.library</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin/wnck-urgency-monitor</Path>
+            <Path fileType="executable">/usr/bin/wnckprop</Path>
+            <Path fileType="library">/usr/lib64/girepository-1.0/Wnck-1.0.typelib</Path>
+            <Path fileType="library">/usr/lib64/libwnck-1.so.22</Path>
+            <Path fileType="library">/usr/lib64/libwnck-1.so.22.4.0</Path>
+            <Path fileType="data">/usr/share/gir-1.0/Wnck-1.0.gir</Path>
+            <Path fileType="localedata">/usr/share/locale/am/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ar/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/as/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ast/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/az/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/be/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/be@latin/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/bg/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/bn/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/bn_IN/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/br/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/bs/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ca/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ca@valencia/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/crh/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/cs/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/cy/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/da/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/de/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/dz/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/el/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/en@shaw/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/en_CA/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/en_GB/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/eo/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/es/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/et/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/eu/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/fa/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/fi/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/fr/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ga/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/gl/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/gu/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/he/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/hi/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/hr/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/hu/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/id/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/is/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/it/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ja/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ka/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/kk/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/kn/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ko/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ku/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ky/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/li/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/lt/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/lv/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/mai/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/mi/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/mk/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ml/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/mn/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/mr/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ms/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/nb/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ne/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/nl/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/nn/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/oc/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/or/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/pa/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/pl/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/pt/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/pt_BR/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ro/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ru/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/rw/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/si/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/sk/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/sl/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/sq/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/sr/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/sr@latin/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/sv/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ta/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/te/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/th/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/tr/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ug/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/uk/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/vi/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/wa/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/xh/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/zh_CN/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/zh_HK/LC_MESSAGES/libwnck.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/zh_TW/LC_MESSAGES/libwnck.mo</Path>
+        </Files>
+    </Package>
+    <Package>
+        <Name>libwnck2-devel</Name>
+        <Summary xml:lang="en">Development files for libwnck2</Summary>
+        <Description xml:lang="en">Window Navigator Construction Kit from Gnome (gtk+2 version)
+</Description>
+        <PartOf>programming.devel</PartOf>
+        <RuntimeDependencies>
+            <Dependency release="1">libwnck2</Dependency>
+        </RuntimeDependencies>
+        <Files>
+            <Path fileType="header">/usr/include/libwnck-1.0/libwnck/application.h</Path>
+            <Path fileType="header">/usr/include/libwnck-1.0/libwnck/class-group.h</Path>
+            <Path fileType="header">/usr/include/libwnck-1.0/libwnck/libwnck.h</Path>
+            <Path fileType="header">/usr/include/libwnck-1.0/libwnck/pager.h</Path>
+            <Path fileType="header">/usr/include/libwnck-1.0/libwnck/screen.h</Path>
+            <Path fileType="header">/usr/include/libwnck-1.0/libwnck/selector.h</Path>
+            <Path fileType="header">/usr/include/libwnck-1.0/libwnck/tasklist.h</Path>
+            <Path fileType="header">/usr/include/libwnck-1.0/libwnck/util.h</Path>
+            <Path fileType="header">/usr/include/libwnck-1.0/libwnck/version.h</Path>
+            <Path fileType="header">/usr/include/libwnck-1.0/libwnck/window-action-menu.h</Path>
+            <Path fileType="header">/usr/include/libwnck-1.0/libwnck/window.h</Path>
+            <Path fileType="header">/usr/include/libwnck-1.0/libwnck/wnck-enum-types.h</Path>
+            <Path fileType="header">/usr/include/libwnck-1.0/libwnck/workspace.h</Path>
+            <Path fileType="library">/usr/lib64/libwnck-1.so</Path>
+            <Path fileType="data">/usr/lib64/pkgconfig/libwnck-1.0.pc</Path>
+        </Files>
+    </Package>
+    <Package>
+        <Name>libwnck2-docs</Name>
+        <Summary xml:lang="en">Documentation for libwnck2</Summary>
+        <Description xml:lang="en">Window Navigator Construction Kit from Gnome (gtk+2 version)
+</Description>
+        <PartOf>programming.docs</PartOf>
+        <Files>
+            <Path fileType="doc">/usr/share/gtk-doc/html/libwnck/WnckApplication.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/libwnck/WnckClassGroup.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/libwnck/WnckPager.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/libwnck/WnckScreen.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/libwnck/WnckSelector.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/libwnck/WnckTasklist.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/libwnck/WnckWindow.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/libwnck/WnckWorkspace.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/libwnck/core.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/libwnck/home.png</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/libwnck/index.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/libwnck/index.sgml</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/libwnck/indexes.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/libwnck/intro.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/libwnck/ix01.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/libwnck/ix02.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/libwnck/ix03.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/libwnck/ix04.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/libwnck/ix05.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/libwnck/ix06.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/libwnck/ix07.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/libwnck/ix08.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/libwnck/ix09.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/libwnck/ix10.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/libwnck/ix11.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/libwnck/ix12.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/libwnck/ix13.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/libwnck/left.png</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/libwnck/libwnck-Miscellaneous-Functions.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/libwnck/libwnck-Resource-Usage-of-X-Clients.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/libwnck/libwnck-Version-Information.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/libwnck/libwnck-Window-Action-Menu.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/libwnck/libwnck.devhelp2</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/libwnck/right.png</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/libwnck/style.css</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/libwnck/up.png</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/libwnck/utils.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/libwnck/widgets.html</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-10-17</Date>
+            <Version>2.31.0</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Pingax</Name>
+            <Email>pingax@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>

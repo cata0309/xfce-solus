@@ -1,0 +1,19 @@
+name       : libwnck2
+version    : 2.31.0
+release    : 1
+source     :
+    - https://download.gnome.org/sources/libwnck/2.31/libwnck-2.31.0.tar.xz : 83f732d20781fc88b22cdc6aaf2d4f388db6d3d4ff28d1a8fd45be9fb7743a9e
+license    : GPL-2.0-or-later
+component  : desktop.library
+summary    : Window Navigator Construction Kit (gtk+2)
+description: |
+    Window Navigator Construction Kit from Gnome (gtk+2 version)
+builddeps  :
+    - pkgconfig(x11)
+    - pkgconfig(gtk+-2.0)
+setup      : |
+    %configure --disable-static
+build      : |
+    %make
+install    : |
+    %make_install
