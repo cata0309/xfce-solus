@@ -1,0 +1,35 @@
+<PISI>
+    <Source>
+        <Name>iceauth</Name>
+        <Packager>
+            <Name>Pingax</Name>
+            <Email>pingax@gmail.com</Email>
+        </Packager>
+        <License>GPL-2.0-or-later</License>
+        <PartOf>desktop.xfce</PartOf>
+        <Summary xml:lang="en">X.org iceauth application</Summary>
+        <Description xml:lang="en">X.org iceauth application
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>iceauth</Name>
+        <Summary xml:lang="en">X.org iceauth application</Summary>
+        <Description xml:lang="en">X.org iceauth application
+</Description>
+        <PartOf>desktop.xfce</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin/iceauth</Path>
+            <Path fileType="man">/usr/share/man/man1/iceauth.1</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-10-17</Date>
+            <Version>1.0.8</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Pingax</Name>
+            <Email>pingax@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>
