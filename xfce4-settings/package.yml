@@ -1,0 +1,20 @@
+name       : xfce4-settings
+version    : 4.12.1
+release    : 1
+source     :
+    - http://archive.xfce.org/src/xfce/xfce4-settings/4.12/xfce4-settings-4.12.1.tar.bz2 : f6484a0b1a7dad65ba5ee4eba8e07299b7c92a2a8adb195684e0e2b959886574
+license    : GPL-2.0-or-later
+component  : desktop.xfce
+summary    : XFCE settings management
+description: |
+    App to configure XFCE's settings
+builddeps  :
+    - pkgconfig(libxfce4ui-1)
+    - pkgconfig(exo-1)
+    - pkgconfig(garcon-1)
+setup      : |
+    %configure
+build      : |
+    %make
+install    : |
+    %make_install
