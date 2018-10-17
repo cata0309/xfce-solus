@@ -1,0 +1,21 @@
+name       : xfdesktop
+version    : 4.12.4
+release    : 1
+source     :
+    - http://archive.xfce.org/src/xfce/xfdesktop/4.12/xfdesktop-4.12.4.tar.bz2 : 098a35510562907e1431d5adbfa8307484a235c1dec6a43e2d58d2ac4241f1cb
+license    : GPL-2.0-or-later
+component  : desktop.xfce
+summary    : XFCE desktop manager
+description: |
+    XFCE desktop manager
+builddeps  :
+    - pkgconfig(garcon-1)
+    - pkgconfig(thunarx-2)
+    - pkgconfig(libwnck-1.0)
+    - pkgconfig(exo-1)
+setup      : |
+    %configure
+build      : |
+    %make
+install    : |
+    %make_install
