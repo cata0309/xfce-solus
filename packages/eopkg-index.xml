@@ -1,0 +1,1128 @@
+<PISI>
+    <Package>
+        <Name>xfce4-session</Name>
+        <Summary xml:lang="en">XFCE session manager</Summary>
+        <Description xml:lang="en">The XFCE session manager</Description>
+        <PartOf>desktop.xfce</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="1">libxfce4ui</Dependency>
+            <Dependency releaseFrom="19">polkit</Dependency>
+            <Dependency releaseFrom="1">libxfce4util</Dependency>
+            <Dependency releaseFrom="23">libgtk-2</Dependency>
+            <Dependency releaseFrom="29">pango</Dependency>
+            <Dependency releaseFrom="12">dbus-glib</Dependency>
+            <Dependency releaseFrom="39">libcairo</Dependency>
+            <Dependency releaseFrom="26">dbus</Dependency>
+            <Dependency releaseFrom="21">libx11</Dependency>
+            <Dependency releaseFrom="7">libice</Dependency>
+            <Dependency releaseFrom="36">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="1">libwnck2</Dependency>
+            <Dependency releaseFrom="1">xfconf</Dependency>
+            <Dependency releaseFrom="20">libatk</Dependency>
+            <Dependency releaseFrom="46">glib2</Dependency>
+            <Dependency releaseFrom="9">libsm</Dependency>
+            <Dependency releaseFrom="52">glibc</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2018-10-17</Date>
+                <Version>4.12.1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Pingax</Name>
+                <Email>pingax@gmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>2047443</InstalledSize>
+        <PackageSize>647921</PackageSize>
+        <PackageHash>93217a9367f4b5e3ba799b93187d76e0e67a7712</PackageHash>
+        <PackageURI>xfce4-session-4.12.1-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>xfce4-session</Name>
+            <Packager>
+                <Name>Pingax</Name>
+                <Email>pingax@gmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>garcon-docs</Name>
+        <Summary xml:lang="en">Documentation for garcon</Summary>
+        <Description xml:lang="en">Provides an implementation of freedesktop.org menu specification</Description>
+        <PartOf>programming.docs</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <History>
+            <Update release="1">
+                <Date>2018-10-17</Date>
+                <Version>0.6.1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Pingax</Name>
+                <Email>pingax@gmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>352268</InstalledSize>
+        <PackageSize>29894</PackageSize>
+        <PackageHash>4214f317dcf873aa77e009f851e0376023458d48</PackageHash>
+        <PackageURI>garcon-docs-0.6.1-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>garcon</Name>
+            <Packager>
+                <Name>Pingax</Name>
+                <Email>pingax@gmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>garcon-devel</Name>
+        <Summary xml:lang="en">Development files for garcon</Summary>
+        <Description xml:lang="en">Provides an implementation of freedesktop.org menu specification</Description>
+        <PartOf>programming.devel</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="81">libgtk-3-devel</Dependency>
+            <Dependency release="1">garcon</Dependency>
+            <Dependency releaseFrom="1">libxfce4ui-devel</Dependency>
+            <Dependency releaseFrom="46">glib2-devel</Dependency>
+            <Dependency releaseFrom="23">libgtk-2-devel</Dependency>
+        </RuntimeDependencies>
+        <Provides>
+            <PkgConfig>garcon-gtk2-1</PkgConfig>
+            <PkgConfig>garcon-1</PkgConfig>
+            <PkgConfig>garcon-gtk3-1</PkgConfig>
+        </Provides>
+        <History>
+            <Update release="1">
+                <Date>2018-10-17</Date>
+                <Version>0.6.1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Pingax</Name>
+                <Email>pingax@gmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>67937</InstalledSize>
+        <PackageSize>8896</PackageSize>
+        <PackageHash>2e80f1656b3139ad6279a99183775a768c824948</PackageHash>
+        <PackageURI>garcon-devel-0.6.1-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>garcon</Name>
+            <Packager>
+                <Name>Pingax</Name>
+                <Email>pingax@gmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>libxfce4ui</Name>
+        <Summary xml:lang="en">Widgets library for xfce4</Summary>
+        <Description xml:lang="en">Unified widgets library for xfce4</Description>
+        <PartOf>desktop.xfce</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="46">glib2</Dependency>
+            <Dependency releaseFrom="39">libcairo</Dependency>
+            <Dependency releaseFrom="52">glibc</Dependency>
+            <Dependency releaseFrom="21">libx11</Dependency>
+            <Dependency releaseFrom="36">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="1">libxfce4util</Dependency>
+            <Dependency releaseFrom="1">xfconf</Dependency>
+            <Dependency releaseFrom="20">libatk</Dependency>
+            <Dependency releaseFrom="23">libgtk-2</Dependency>
+            <Dependency releaseFrom="81">libgtk-3</Dependency>
+            <Dependency releaseFrom="29">pango</Dependency>
+            <Dependency releaseFrom="6">libstartup-notification</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2018-10-15</Date>
+                <Version>4.12.1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Pingax</Name>
+                <Email>pingax@gmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>1207559</InstalledSize>
+        <PackageSize>213856</PackageSize>
+        <PackageHash>865ac2d454e0e8c66b87a0122107fc44a370b124</PackageHash>
+        <PackageURI>libxfce4ui-4.12.1-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>libxfce4ui</Name>
+            <Packager>
+                <Name>Pingax</Name>
+                <Email>pingax@gmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>libxfce4ui-devel</Name>
+        <Summary xml:lang="en">Development files for libxfce4ui</Summary>
+        <Description xml:lang="en">Unified widgets library for xfce4</Description>
+        <PartOf>programming.devel</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="81">libgtk-3-devel</Dependency>
+            <Dependency releaseFrom="1">xfconf-devel</Dependency>
+            <Dependency releaseFrom="1">libxfce4util-devel</Dependency>
+            <Dependency release="1">libxfce4ui</Dependency>
+            <Dependency releaseFrom="23">libgtk-2-devel</Dependency>
+        </RuntimeDependencies>
+        <Provides>
+            <PkgConfig>libxfce4ui-1</PkgConfig>
+            <PkgConfig>libxfce4ui-2</PkgConfig>
+            <PkgConfig>libxfce4kbd-private-3</PkgConfig>
+            <PkgConfig>libxfce4kbd-private-2</PkgConfig>
+        </Provides>
+        <History>
+            <Update release="1">
+                <Date>2018-10-15</Date>
+                <Version>4.12.1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Pingax</Name>
+                <Email>pingax@gmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>72450</InstalledSize>
+        <PackageSize>7467</PackageSize>
+        <PackageHash>5d8ed0f7e57c57e49d0d99b3e0a200390f0bb2bb</PackageHash>
+        <PackageURI>libxfce4ui-devel-4.12.1-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>libxfce4ui</Name>
+            <Packager>
+                <Name>Pingax</Name>
+                <Email>pingax@gmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>xfce4-panel-docs</Name>
+        <Summary xml:lang="en">Documentation for xfce4-panel</Summary>
+        <Description xml:lang="en">XFCE&apos;s panel</Description>
+        <PartOf>programming.docs</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <History>
+            <Update release="1">
+                <Date>2018-10-17</Date>
+                <Version>4.12.1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Pingax</Name>
+                <Email>pingax@gmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>443232</InstalledSize>
+        <PackageSize>39885</PackageSize>
+        <PackageHash>0a513a78672f627f2cb8c9cce4e9341361c1ca6d</PackageHash>
+        <PackageURI>xfce4-panel-docs-4.12.1-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>xfce4-panel</Name>
+            <Packager>
+                <Name>Pingax</Name>
+                <Email>pingax@gmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>exo-docs</Name>
+        <Summary xml:lang="en">Documentation for exo</Summary>
+        <Description xml:lang="en">This is libexo, an extension library to XFCE</Description>
+        <PartOf>programming.docs</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <History>
+            <Update release="1">
+                <Date>2018-10-17</Date>
+                <Version>0.11.5</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Pingax</Name>
+                <Email>pingax@gmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>1139891</InstalledSize>
+        <PackageSize>205671</PackageSize>
+        <PackageHash>48fd9ccaf2998c2010d9a135a9a9ffc0ba346da4</PackageHash>
+        <PackageURI>exo-docs-0.11.5-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>exo</Name>
+            <Packager>
+                <Name>Pingax</Name>
+                <Email>pingax@gmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>xfconf-docs</Name>
+        <Summary xml:lang="en">Documentation for xfconf</Summary>
+        <Description xml:lang="en">Configuration library and tools for XFCE</Description>
+        <PartOf>programming.docs</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <History>
+            <Update release="1">
+                <Date>2018-10-15</Date>
+                <Version>4.12.1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Pingax</Name>
+                <Email>pingax@gmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>214304</InstalledSize>
+        <PackageSize>21545</PackageSize>
+        <PackageHash>89ee1006d289acc3b257ea8548aef35c979d4095</PackageHash>
+        <PackageURI>xfconf-docs-4.12.1-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>xfconf</Name>
+            <Packager>
+                <Name>Pingax</Name>
+                <Email>pingax@gmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>xfce4-session-devel</Name>
+        <Summary xml:lang="en">Development files for xfce4-session</Summary>
+        <Description xml:lang="en">The XFCE session manager</Description>
+        <PartOf>programming.devel</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency release="1">xfce4-session</Dependency>
+            <Dependency releaseFrom="1">xfconf-devel</Dependency>
+            <Dependency releaseFrom="1">libxfce4ui-devel</Dependency>
+        </RuntimeDependencies>
+        <Provides>
+            <PkgConfig>xfce4-session-2.0</PkgConfig>
+        </Provides>
+        <History>
+            <Update release="1">
+                <Date>2018-10-17</Date>
+                <Version>4.12.1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Pingax</Name>
+                <Email>pingax@gmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>6931</InstalledSize>
+        <PackageSize>3296</PackageSize>
+        <PackageHash>020be09d41aa9e20761aac99c46330421b679237</PackageHash>
+        <PackageURI>xfce4-session-devel-4.12.1-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>xfce4-session</Name>
+            <Packager>
+                <Name>Pingax</Name>
+                <Email>pingax@gmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>xfce4-settings</Name>
+        <Summary xml:lang="en">XFCE settings management</Summary>
+        <Description xml:lang="en">App to configure XFCE&apos;s settings</Description>
+        <PartOf>desktop.xfce</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="1">libxfce4ui</Dependency>
+            <Dependency releaseFrom="11">libxcursor</Dependency>
+            <Dependency releaseFrom="1">libxfce4util</Dependency>
+            <Dependency releaseFrom="23">libgtk-2</Dependency>
+            <Dependency releaseFrom="29">pango</Dependency>
+            <Dependency releaseFrom="12">dbus-glib</Dependency>
+            <Dependency releaseFrom="39">libcairo</Dependency>
+            <Dependency releaseFrom="1">exo</Dependency>
+            <Dependency releaseFrom="26">dbus</Dependency>
+            <Dependency releaseFrom="21">libx11</Dependency>
+            <Dependency releaseFrom="33">fontconfig</Dependency>
+            <Dependency releaseFrom="36">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="1">garcon</Dependency>
+            <Dependency releaseFrom="10">libxrandr</Dependency>
+            <Dependency releaseFrom="1">xfconf</Dependency>
+            <Dependency releaseFrom="12">libxi</Dependency>
+            <Dependency releaseFrom="46">glib2</Dependency>
+            <Dependency releaseFrom="52">glibc</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2018-10-17</Date>
+                <Version>4.12.1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Pingax</Name>
+                <Email>pingax@gmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>2545447</InstalledSize>
+        <PackageSize>505412</PackageSize>
+        <PackageHash>bf11d1a3863998e78016777a8857f70d1303ca68</PackageHash>
+        <PackageURI>xfce4-settings-4.12.1-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>xfce4-settings</Name>
+            <Packager>
+                <Name>Pingax</Name>
+                <Email>pingax@gmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>exo-devel</Name>
+        <Summary xml:lang="en">Development files for exo</Summary>
+        <Description xml:lang="en">This is libexo, an extension library to XFCE</Description>
+        <PartOf>programming.devel</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="81">libgtk-3-devel</Dependency>
+            <Dependency release="1">exo</Dependency>
+            <Dependency releaseFrom="1">libxfce4util-devel</Dependency>
+            <Dependency releaseFrom="23">libgtk-2-devel</Dependency>
+        </RuntimeDependencies>
+        <Provides>
+            <PkgConfig>exo-2</PkgConfig>
+            <PkgConfig>exo-1</PkgConfig>
+        </Provides>
+        <History>
+            <Update release="1">
+                <Date>2018-10-17</Date>
+                <Version>0.11.5</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Pingax</Name>
+                <Email>pingax@gmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>183247</InstalledSize>
+        <PackageSize>16098</PackageSize>
+        <PackageHash>5a77bfd62f68e6b1c238b5b146cfd7bcbfbf894e</PackageHash>
+        <PackageURI>exo-devel-0.11.5-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>exo</Name>
+            <Packager>
+                <Name>Pingax</Name>
+                <Email>pingax@gmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>thunar</Name>
+        <Summary xml:lang="en">File manager for XFCE</Summary>
+        <Description xml:lang="en">Thunar is a modern file manager for XFCE</Description>
+        <PartOf>desktop.xfce</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="1">libxfce4ui</Dependency>
+            <Dependency releaseFrom="1">libxfce4util</Dependency>
+            <Dependency releaseFrom="29">pango</Dependency>
+            <Dependency releaseFrom="1">xfce4-panel</Dependency>
+            <Dependency releaseFrom="23">libgtk-2</Dependency>
+            <Dependency releaseFrom="12">dbus-glib</Dependency>
+            <Dependency releaseFrom="39">libcairo</Dependency>
+            <Dependency releaseFrom="1">exo</Dependency>
+            <Dependency releaseFrom="52">glibc</Dependency>
+            <Dependency releaseFrom="21">libx11</Dependency>
+            <Dependency releaseFrom="4">libgudev</Dependency>
+            <Dependency releaseFrom="36">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="1">xfconf</Dependency>
+            <Dependency releaseFrom="20">libatk</Dependency>
+            <Dependency releaseFrom="18">libpcre</Dependency>
+            <Dependency releaseFrom="46">glib2</Dependency>
+            <Dependency releaseFrom="26">dbus</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2018-10-17</Date>
+                <Version>1.6.13</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Pingax</Name>
+                <Email>pingax@gmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>5395285</InstalledSize>
+        <PackageSize>1074143</PackageSize>
+        <PackageHash>4f4dda26b18e044be19ef9a279495da71fbce9de</PackageHash>
+        <PackageURI>thunar-1.6.13-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>thunar</Name>
+            <Packager>
+                <Name>Pingax</Name>
+                <Email>pingax@gmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>thunar-devel</Name>
+        <Summary xml:lang="en">Development files for thunar</Summary>
+        <Description xml:lang="en">Thunar is a modern file manager for XFCE</Description>
+        <PartOf>programming.devel</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="46">glib2-devel</Dependency>
+            <Dependency releaseFrom="23">libgtk-2-devel</Dependency>
+            <Dependency release="1">thunar</Dependency>
+        </RuntimeDependencies>
+        <Provides>
+            <PkgConfig>thunarx-2</PkgConfig>
+        </Provides>
+        <History>
+            <Update release="1">
+                <Date>2018-10-17</Date>
+                <Version>1.6.13</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Pingax</Name>
+                <Email>pingax@gmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>37683</InstalledSize>
+        <PackageSize>6564</PackageSize>
+        <PackageHash>4c2ff646a07c1d41421bf60e4782592f8495ec8b</PackageHash>
+        <PackageURI>thunar-devel-1.6.13-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>thunar</Name>
+            <Packager>
+                <Name>Pingax</Name>
+                <Email>pingax@gmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>libwnck2</Name>
+        <Summary xml:lang="en">Window Navigator Construction Kit (gtk+2)</Summary>
+        <Description xml:lang="en">Window Navigator Construction Kit from Gnome (gtk+2 version)</Description>
+        <PartOf>desktop.library</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="39">libcairo</Dependency>
+            <Dependency releaseFrom="52">glibc</Dependency>
+            <Dependency releaseFrom="21">libx11</Dependency>
+            <Dependency releaseFrom="36">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="20">libatk</Dependency>
+            <Dependency releaseFrom="23">libgtk-2</Dependency>
+            <Dependency releaseFrom="46">glib2</Dependency>
+            <Dependency releaseFrom="29">pango</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2018-10-17</Date>
+                <Version>2.31.0</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Pingax</Name>
+                <Email>pingax@gmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>2213454</InstalledSize>
+        <PackageSize>355655</PackageSize>
+        <PackageHash>575844bf4d6a562754487545475fd127a15c2cfd</PackageHash>
+        <PackageURI>libwnck2-2.31.0-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>libwnck2</Name>
+            <Packager>
+                <Name>Pingax</Name>
+                <Email>pingax@gmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>xfconf-devel</Name>
+        <Summary xml:lang="en">Development files for xfconf</Summary>
+        <Description xml:lang="en">Configuration library and tools for XFCE</Description>
+        <PartOf>programming.devel</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="46">glib2-devel</Dependency>
+            <Dependency releaseFrom="12">dbus-glib-devel</Dependency>
+            <Dependency release="1">xfconf</Dependency>
+            <Dependency releaseFrom="26">dbus-devel</Dependency>
+        </RuntimeDependencies>
+        <Provides>
+            <PkgConfig>libxfconf-0</PkgConfig>
+        </Provides>
+        <History>
+            <Update release="1">
+                <Date>2018-10-15</Date>
+                <Version>4.12.1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Pingax</Name>
+                <Email>pingax@gmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>17303</InstalledSize>
+        <PackageSize>4170</PackageSize>
+        <PackageHash>bffdb3510d7cf5a5b338851c9b5561219be83ddb</PackageHash>
+        <PackageURI>xfconf-devel-4.12.1-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>xfconf</Name>
+            <Packager>
+                <Name>Pingax</Name>
+                <Email>pingax@gmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>libxfce4ui-docs</Name>
+        <Summary xml:lang="en">Documentation for libxfce4ui</Summary>
+        <Description xml:lang="en">Unified widgets library for xfce4</Description>
+        <PartOf>programming.docs</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <History>
+            <Update release="1">
+                <Date>2018-10-15</Date>
+                <Version>4.12.1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Pingax</Name>
+                <Email>pingax@gmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>247014</InstalledSize>
+        <PackageSize>28717</PackageSize>
+        <PackageHash>aee41bb6903eb8101dd10722eb6274663f9cec5f</PackageHash>
+        <PackageURI>libxfce4ui-docs-4.12.1-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>libxfce4ui</Name>
+            <Packager>
+                <Name>Pingax</Name>
+                <Email>pingax@gmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>xfwm4</Name>
+        <Summary xml:lang="en">XFCE window manager</Summary>
+        <Description xml:lang="en">XFCE window manager</Description>
+        <PartOf>desktop.xfce</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="9">libxcomposite</Dependency>
+            <Dependency releaseFrom="1">libxfce4ui</Dependency>
+            <Dependency releaseFrom="1">libxfce4util</Dependency>
+            <Dependency releaseFrom="23">libgtk-2</Dependency>
+            <Dependency releaseFrom="10">libxfixes</Dependency>
+            <Dependency releaseFrom="12">dbus-glib</Dependency>
+            <Dependency releaseFrom="46">glib2</Dependency>
+            <Dependency releaseFrom="29">pango</Dependency>
+            <Dependency releaseFrom="39">libcairo</Dependency>
+            <Dependency releaseFrom="52">glibc</Dependency>
+            <Dependency releaseFrom="21">libx11</Dependency>
+            <Dependency releaseFrom="36">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="1">libwnck2</Dependency>
+            <Dependency releaseFrom="12">libxrender</Dependency>
+            <Dependency releaseFrom="1">xfconf</Dependency>
+            <Dependency releaseFrom="10">libxdamage</Dependency>
+            <Dependency releaseFrom="10">libxext</Dependency>
+            <Dependency releaseFrom="10">libxrandr</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2018-10-17</Date>
+                <Version>4.12.4</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Pingax</Name>
+                <Email>pingax@gmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>2080178</InstalledSize>
+        <PackageSize>518817</PackageSize>
+        <PackageHash>ffef8823593ee19c63583b8a55abce5a996fbbf8</PackageHash>
+        <PackageURI>xfwm4-4.12.4-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>xfwm4</Name>
+            <Packager>
+                <Name>Pingax</Name>
+                <Email>pingax@gmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>iceauth</Name>
+        <Summary xml:lang="en">X.org iceauth application</Summary>
+        <Description xml:lang="en">X.org iceauth application</Description>
+        <PartOf>desktop.xfce</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="7">libice</Dependency>
+            <Dependency releaseFrom="52">glibc</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2018-10-17</Date>
+                <Version>1.0.8</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Pingax</Name>
+                <Email>pingax@gmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>34900</InstalledSize>
+        <PackageSize>13866</PackageSize>
+        <PackageHash>33ba2b28ae16d470ff520901012d81f76eef7b82</PackageHash>
+        <PackageURI>iceauth-1.0.8-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>iceauth</Name>
+            <Packager>
+                <Name>Pingax</Name>
+                <Email>pingax@gmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>xfce4-panel</Name>
+        <Summary xml:lang="en">XFCE&apos;s panel</Summary>
+        <Description xml:lang="en">XFCE&apos;s panel</Description>
+        <PartOf>desktop.xfce</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="1">libxfce4ui</Dependency>
+            <Dependency releaseFrom="1">libxfce4util</Dependency>
+            <Dependency releaseFrom="23">libgtk-2</Dependency>
+            <Dependency releaseFrom="29">pango</Dependency>
+            <Dependency releaseFrom="12">dbus-glib</Dependency>
+            <Dependency releaseFrom="46">glib2</Dependency>
+            <Dependency releaseFrom="39">libcairo</Dependency>
+            <Dependency releaseFrom="1">exo</Dependency>
+            <Dependency releaseFrom="52">glibc</Dependency>
+            <Dependency releaseFrom="21">libx11</Dependency>
+            <Dependency releaseFrom="36">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="1">libwnck2</Dependency>
+            <Dependency releaseFrom="1">garcon</Dependency>
+            <Dependency releaseFrom="1">xfconf</Dependency>
+            <Dependency releaseFrom="20">libatk</Dependency>
+            <Dependency releaseFrom="10">libxext</Dependency>
+            <Dependency releaseFrom="26">dbus</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2018-10-17</Date>
+                <Version>4.12.1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Pingax</Name>
+                <Email>pingax@gmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>3099132</InstalledSize>
+        <PackageSize>627661</PackageSize>
+        <PackageHash>4a32b294d36a84c77a0d2a9ee8078864ac38a6f1</PackageHash>
+        <PackageURI>xfce4-panel-4.12.1-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>xfce4-panel</Name>
+            <Packager>
+                <Name>Pingax</Name>
+                <Email>pingax@gmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>libwnck2-devel</Name>
+        <Summary xml:lang="en">Development files for libwnck2</Summary>
+        <Description xml:lang="en">Window Navigator Construction Kit from Gnome (gtk+2 version)</Description>
+        <PartOf>programming.devel</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="21">libx11-devel</Dependency>
+            <Dependency releaseFrom="29">pango-devel</Dependency>
+            <Dependency release="1">libwnck2</Dependency>
+            <Dependency releaseFrom="39">libcairo-devel</Dependency>
+            <Dependency releaseFrom="23">libgtk-2-devel</Dependency>
+            <Dependency releaseFrom="46">glib2-devel</Dependency>
+        </RuntimeDependencies>
+        <Provides>
+            <PkgConfig>libwnck-1.0</PkgConfig>
+        </Provides>
+        <History>
+            <Update release="1">
+                <Date>2018-10-17</Date>
+                <Version>2.31.0</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Pingax</Name>
+                <Email>pingax@gmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>63363</InstalledSize>
+        <PackageSize>12403</PackageSize>
+        <PackageHash>4a9437b53f57f76fe1f3058e131e6114c2e7c186</PackageHash>
+        <PackageURI>libwnck2-devel-2.31.0-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>libwnck2</Name>
+            <Packager>
+                <Name>Pingax</Name>
+                <Email>pingax@gmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>xfce4-panel-devel</Name>
+        <Summary xml:lang="en">Development files for xfce4-panel</Summary>
+        <Description xml:lang="en">XFCE&apos;s panel</Description>
+        <PartOf>programming.devel</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency release="1">xfce4-panel</Dependency>
+            <Dependency releaseFrom="1">libxfce4util-devel</Dependency>
+            <Dependency releaseFrom="46">glib2-devel</Dependency>
+            <Dependency releaseFrom="23">libgtk-2-devel</Dependency>
+        </RuntimeDependencies>
+        <Provides>
+            <PkgConfig>libxfce4panel-1.0</PkgConfig>
+        </Provides>
+        <History>
+            <Update release="1">
+                <Date>2018-10-17</Date>
+                <Version>4.12.1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Pingax</Name>
+                <Email>pingax@gmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>81451</InstalledSize>
+        <PackageSize>15465</PackageSize>
+        <PackageHash>e319b396b8b42fc709a84c12d0498248c2d2fd4d</PackageHash>
+        <PackageURI>xfce4-panel-devel-4.12.1-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>xfce4-panel</Name>
+            <Packager>
+                <Name>Pingax</Name>
+                <Email>pingax@gmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>exo</Name>
+        <Summary xml:lang="en">Extension library</Summary>
+        <Description xml:lang="en">This is libexo, an extension library to XFCE</Description>
+        <PartOf>desktop.xfce</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="46">glib2</Dependency>
+            <Dependency releaseFrom="39">libcairo</Dependency>
+            <Dependency releaseFrom="52">glibc</Dependency>
+            <Dependency releaseFrom="21">libx11</Dependency>
+            <Dependency releaseFrom="1">libxfce4ui</Dependency>
+            <Dependency releaseFrom="36">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="1">libxfce4util</Dependency>
+            <Dependency releaseFrom="20">libatk</Dependency>
+            <Dependency releaseFrom="23">libgtk-2</Dependency>
+            <Dependency releaseFrom="81">libgtk-3</Dependency>
+            <Dependency releaseFrom="29">pango</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2018-10-17</Date>
+                <Version>0.11.5</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Pingax</Name>
+                <Email>pingax@gmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>2449749</InstalledSize>
+        <PackageSize>471140</PackageSize>
+        <PackageHash>76d0d47e258a662fe2aeb529858cd888bf82d18b</PackageHash>
+        <PackageURI>exo-0.11.5-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>exo</Name>
+            <Packager>
+                <Name>Pingax</Name>
+                <Email>pingax@gmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>libwnck2-docs</Name>
+        <Summary xml:lang="en">Documentation for libwnck2</Summary>
+        <Description xml:lang="en">Window Navigator Construction Kit from Gnome (gtk+2 version)</Description>
+        <PartOf>programming.docs</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <History>
+            <Update release="1">
+                <Date>2018-10-17</Date>
+                <Version>2.31.0</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Pingax</Name>
+                <Email>pingax@gmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>630684</InstalledSize>
+        <PackageSize>51951</PackageSize>
+        <PackageHash>b9cdc3a6f6282e8f215ee0d4c57e1a66f72f538e</PackageHash>
+        <PackageURI>libwnck2-docs-2.31.0-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>libwnck2</Name>
+            <Packager>
+                <Name>Pingax</Name>
+                <Email>pingax@gmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>xfce4-appfinder</Name>
+        <Summary xml:lang="en">Application launcher and finder</Summary>
+        <Description xml:lang="en">Provides an application launcher and finder for XFCE</Description>
+        <PartOf>desktop.xfce</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="52">glibc</Dependency>
+            <Dependency releaseFrom="1">libxfce4ui</Dependency>
+            <Dependency releaseFrom="36">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="1">garcon</Dependency>
+            <Dependency releaseFrom="1">libxfce4util</Dependency>
+            <Dependency releaseFrom="1">xfconf</Dependency>
+            <Dependency releaseFrom="23">libgtk-2</Dependency>
+            <Dependency releaseFrom="46">glib2</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2018-10-17</Date>
+                <Version>4.12.0</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Pingax</Name>
+                <Email>pingax@gmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>465273</InstalledSize>
+        <PackageSize>107824</PackageSize>
+        <PackageHash>5fd91a6c3ba190ff161754ce136abdc1bb4d00a6</PackageHash>
+        <PackageURI>xfce4-appfinder-4.12.0-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>xfce4-appfinder</Name>
+            <Packager>
+                <Name>Pingax</Name>
+                <Email>pingax@gmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>garcon</Name>
+        <Summary xml:lang="en">freedesktop.org menu specifications</Summary>
+        <Description xml:lang="en">Provides an implementation of freedesktop.org menu specification</Description>
+        <PartOf>desktop.xfce</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="36">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="46">glib2</Dependency>
+            <Dependency releaseFrom="23">libgtk-2</Dependency>
+            <Dependency releaseFrom="1">libxfce4util</Dependency>
+            <Dependency releaseFrom="52">glibc</Dependency>
+            <Dependency releaseFrom="81">libgtk-3</Dependency>
+            <Dependency releaseFrom="1">libxfce4ui</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2018-10-17</Date>
+                <Version>0.6.1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Pingax</Name>
+                <Email>pingax@gmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>433790</InstalledSize>
+        <PackageSize>95534</PackageSize>
+        <PackageHash>b3fd7dde97152e0e88669539f04173d446d7c3b0</PackageHash>
+        <PackageURI>garcon-0.6.1-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>garcon</Name>
+            <Packager>
+                <Name>Pingax</Name>
+                <Email>pingax@gmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>xfconf</Name>
+        <Summary xml:lang="en">Configuration library</Summary>
+        <Description xml:lang="en">Configuration library and tools for XFCE</Description>
+        <PartOf>desktop.xfce</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="26">dbus</Dependency>
+            <Dependency releaseFrom="46">glib2</Dependency>
+            <Dependency releaseFrom="52">glibc</Dependency>
+            <Dependency releaseFrom="12">dbus-glib</Dependency>
+            <Dependency releaseFrom="1">libxfce4util</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2018-10-15</Date>
+                <Version>4.12.1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Pingax</Name>
+                <Email>pingax@gmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>596887</InstalledSize>
+        <PackageSize>122502</PackageSize>
+        <PackageHash>6cae7186f42db15e04e8a29162717bca13a91b93</PackageHash>
+        <PackageURI>xfconf-4.12.1-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>xfconf</Name>
+            <Packager>
+                <Name>Pingax</Name>
+                <Email>pingax@gmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>xfdesktop</Name>
+        <Summary xml:lang="en">XFCE desktop manager</Summary>
+        <Description xml:lang="en">XFCE desktop manager</Description>
+        <PartOf>desktop.xfce</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="1">libxfce4ui</Dependency>
+            <Dependency releaseFrom="1">libxfce4util</Dependency>
+            <Dependency releaseFrom="23">libgtk-2</Dependency>
+            <Dependency releaseFrom="29">pango</Dependency>
+            <Dependency releaseFrom="12">dbus-glib</Dependency>
+            <Dependency releaseFrom="39">libcairo</Dependency>
+            <Dependency releaseFrom="1">exo</Dependency>
+            <Dependency releaseFrom="52">glibc</Dependency>
+            <Dependency releaseFrom="21">libx11</Dependency>
+            <Dependency releaseFrom="1">thunar</Dependency>
+            <Dependency releaseFrom="36">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="1">libwnck2</Dependency>
+            <Dependency releaseFrom="1">garcon</Dependency>
+            <Dependency releaseFrom="1">xfconf</Dependency>
+            <Dependency releaseFrom="46">glib2</Dependency>
+            <Dependency releaseFrom="26">dbus</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2018-10-17</Date>
+                <Version>4.12.4</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Pingax</Name>
+                <Email>pingax@gmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>2181652</InstalledSize>
+        <PackageSize>797274</PackageSize>
+        <PackageHash>947c3074094b56178cf38bbcfb8cc3e6ac394e0c</PackageHash>
+        <PackageURI>xfdesktop-4.12.4-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>xfdesktop</Name>
+            <Packager>
+                <Name>Pingax</Name>
+                <Email>pingax@gmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+</PISI>
