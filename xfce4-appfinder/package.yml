@@ -1,0 +1,20 @@
+name       : xfce4-appfinder
+version    : 4.12.0
+release    : 1
+source     :
+    - http://archive.xfce.org/src/xfce/xfce4-appfinder/4.12/xfce4-appfinder-4.12.0.tar.bz2 : 2ad4a58019a76a6b64a816050db25f96854917c2f2e89d6a9df6c18e6c84c567
+license    : GPL-2.0-or-later
+component  : desktop.xfce
+summary    : Application launcher and finder
+description: |
+    Provides an application launcher and finder for XFCE
+builddeps  :
+    - pkgconfig(libxfce4util-1.0)
+    - pkgconfig(thunarx-2)
+    - pkgconfig(garcon-1)
+setup      : |
+    %configure
+build      : |
+    %make
+install    : |
+    %make_install
